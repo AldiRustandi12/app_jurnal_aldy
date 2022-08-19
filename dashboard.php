@@ -32,7 +32,7 @@
                 <a class="nav-link  text-white fw-bold" href="dashboard.php?page=validasikeg">Validasi Kegiatan</a>
            
             </ul>
-                        </div>
+                </div>
                         <div class="col-sm-9">
                         
                         <?php
@@ -50,7 +50,7 @@
                                         include "page/inputkeg.php";
                                         break;
                                     case 'nilaiprak':
-                                         include "nilaiprak.php";
+                                         include "page/nilaiprak.php";
                                          break;
                                     case 'monitoring':
                                          include "page/monitoring.php";
@@ -77,4 +77,4 @@
     
 
 </body>
-</html>
+</html>    
